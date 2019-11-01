@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "acl": "http://www.w3.org/ns/auth/acl#",
+        "webac": "http://fedora.info/definitions/v4/webac#",
+        "Authorization": {
+            "@id": "acl:Authorization"
+        },
+        "authorizations": "webac:hasAutorization",
+        "agent": {
+            "@id": "acl:agent",
+            "@type": "@id"
+        },
+        "accessTo": {
+            "@id": "acl:accessTo"
+        },
+        "default": {
+            "@id": "acl:default"
+        },
+        "mode": {
+            "@id": "acl:mode",
+            "@type": "@vocab"
+        },
+        "Read": {
+            "@id": "acl:Read"
+        },
+        "Write": {
+            "@id": "acl:Write"
+        },
+        "Control": {
+            "@id": "acl:Control"
+        }
+    }
+}
